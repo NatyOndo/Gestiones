@@ -1,0 +1,237 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f8f8f8;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #164B60;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #164B60;
+  position: fixed;;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-toggler {
+  background-color: #F29727;
+  border-color: white;
+}
+
+.navbar-toggler:hover {
+  background-color: #ffc107;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #F29727;
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: #ffc107;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.nav-link {
+  /* color: #164B60; */
+  color: white;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("/images/beca3.jpg"); /* Use a relative path */
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  height: 28rem;
+}
+
+.title{
+  align-items: center;
+  padding-top: 200px;
+}
+.heading1 {
+  font-size: 4rem; 
+  font-weight: bold;
+  color: #fff ;
+  text-align: center; 
+  text-transform: uppercase; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+/* Services Section */
+
+.services {
+  background-color: #fff;
+  padding: 80px 0;
+}
+.card{
+  position: static;
+}
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #164B60;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.services h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #164B60;
+  font-weight: bold;
+}
+
+.services p {
+  color: #777;
+}
+
+
+/* Contact Section */
+.contact {
+  padding: 40px;
+  background-color: white;
+}
+.contact-container{
+  background-color: #164B60;
+  padding: 80px;
+  text-align: center;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  background-color: #ffc107;
+  color: #333;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffca2c;
+  color: #164B60;
+}
+
+.contact-info {
+  margin-top: 20px;
+  text-align: left;
+}
+.contact-info h3{
+  color: #ffca2c;
+  font-weight: bold;
+}
+.contact-info p {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #ffc107;
+}
+
+
+/* Footer */
+footer {
+  background-color: #164B60;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #fff;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+.social-icon:hover{
+  color:#ffca2c;
+}
+
+.btn {
+  background-color: #ffc107;
+  color: #164B60;
+  font-weight: bold;
+  padding: 12px 30px;
+  font-size: 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffca2c;
+  color: #164B60;
+}
