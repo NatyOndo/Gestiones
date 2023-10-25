@@ -1,0 +1,54 @@
+<%- include("partials/header.ejs")%>
+
+  <section class="services" id="services">
+    <div class="container service-container">
+      <h2>Nuestros Servicios</h2>
+      <div class="row">
+        <div class="service-color col-lg-4">
+          <div class="img-container">
+            <a href="/services"><img class="service-img" src="images/becas.jpg" alt="Service 1"></a>
+          </div>
+          <div class="">
+            <h3>Gestión de Becas de Estudio</h3>
+            <p>
+              <%= becas %>
+            </p>
+          </div>
+        </div>
+        <div class="service-color col-lg-4">
+          <img class="service-img" src="images/visas.jpg" alt="Service 2">
+          <h3>Gestión de visados</h3>
+          <p>
+            <%= visa %>
+          </p>
+        </div>
+        <div class="service-color col-lg-4">
+          <img class="service-img" src="images/netflix.jpg" alt="Service 3">
+          <h3>Distribución de Amazon y Netflix</h3>
+          <p>
+            <%= netflix %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2>Sobre Nosotros</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="about-img" src="images/about.jpg" alt="About Us">
+        </div>
+        <div class="col-lg-6">
+          <h3>Nos Especializamos en Gestiones</h3>
+          <p>
+            <%= about %>
+          </p>
+          <a href="#contact" class="btn">Contáctanos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%- include("partials/footer.ejs")%>
